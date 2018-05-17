@@ -1,3 +1,18 @@
+// This is how to make a comment
+/*
+Or multiple lines
+*/
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').classname;
+
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').classname = 'cool red';
+	} else {
+		document.getElementById('cool').classname = 'cool';
+	}
+	
+}
+
 var car = {
 	make: 'VW',
 	type: 'Polo',
